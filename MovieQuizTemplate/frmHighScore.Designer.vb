@@ -26,6 +26,7 @@ Partial Class frmHighScore
         Me.IstHighScore = New System.Windows.Forms.ListBox()
         Me.btnAgain = New System.Windows.Forms.Button()
         Me.BtnQuit = New System.Windows.Forms.Button()
+        Me.lblMessage = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -63,11 +64,21 @@ Partial Class frmHighScore
         Me.BtnQuit.Text = "Quit"
         Me.BtnQuit.UseVisualStyleBackColor = True
         '
+        'lblMessage
+        '
+        Me.lblMessage.AutoSize = True
+        Me.lblMessage.Location = New System.Drawing.Point(150, 356)
+        Me.lblMessage.Name = "lblMessage"
+        Me.lblMessage.Size = New System.Drawing.Size(39, 13)
+        Me.lblMessage.TabIndex = 4
+        Me.lblMessage.Text = "Label2"
+        '
         'frmHighScore
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblMessage)
         Me.Controls.Add(Me.BtnQuit)
         Me.Controls.Add(Me.btnAgain)
         Me.Controls.Add(Me.IstHighScore)
@@ -83,4 +94,5 @@ Partial Class frmHighScore
     Friend WithEvents IstHighScore As ListBox
     Friend WithEvents btnAgain As Button
     Friend WithEvents BtnQuit As Button
+    Friend WithEvents lblMessage As Label
 End Class

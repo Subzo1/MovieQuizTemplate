@@ -26,10 +26,10 @@ Partial Class frmQuestion3
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.BtnAnswer21 = New System.Windows.Forms.RadioButton()
-        Me.btnAnswer22 = New System.Windows.Forms.RadioButton()
-        Me.btnAnswer23 = New System.Windows.Forms.RadioButton()
         Me.btnAnswer24 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer23 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer22 = New System.Windows.Forms.RadioButton()
+        Me.BtnAnswer21 = New System.Windows.Forms.RadioButton()
         Me.btnNext22 = New System.Windows.Forms.Button()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -76,27 +76,16 @@ Partial Class frmQuestion3
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "GroupBox1"
         '
-        'BtnAnswer21
+        'btnAnswer24
         '
-        Me.BtnAnswer21.AutoSize = True
-        Me.BtnAnswer21.Location = New System.Drawing.Point(7, 57)
-        Me.BtnAnswer21.Name = "BtnAnswer21"
-        Me.BtnAnswer21.Size = New System.Drawing.Size(195, 17)
-        Me.BtnAnswer21.TabIndex = 0
-        Me.BtnAnswer21.TabStop = True
-        Me.BtnAnswer21.Text = "scene 1 intro anord driving in his car"
-        Me.BtnAnswer21.UseVisualStyleBackColor = True
-        '
-        'btnAnswer22
-        '
-        Me.btnAnswer22.AutoSize = True
-        Me.btnAnswer22.Location = New System.Drawing.Point(0, 109)
-        Me.btnAnswer22.Name = "btnAnswer22"
-        Me.btnAnswer22.Size = New System.Drawing.Size(255, 17)
-        Me.btnAnswer22.TabIndex = 1
-        Me.btnAnswer22.TabStop = True
-        Me.btnAnswer22.Text = "scene 11 IVF hopsital results meeting with doctor"
-        Me.btnAnswer22.UseVisualStyleBackColor = True
+        Me.btnAnswer24.AutoSize = True
+        Me.btnAnswer24.Location = New System.Drawing.Point(7, 209)
+        Me.btnAnswer24.Name = "btnAnswer24"
+        Me.btnAnswer24.Size = New System.Drawing.Size(51, 17)
+        Me.btnAnswer24.TabIndex = 3
+        Me.btnAnswer24.TabStop = True
+        Me.btnAnswer24.Text = "Other"
+        Me.btnAnswer24.UseVisualStyleBackColor = True
         '
         'btnAnswer23
         '
@@ -109,16 +98,27 @@ Partial Class frmQuestion3
         Me.btnAnswer23.Text = "scene 6 Funny hopsital enviroment"
         Me.btnAnswer23.UseVisualStyleBackColor = True
         '
-        'btnAnswer24
+        'btnAnswer22
         '
-        Me.btnAnswer24.AutoSize = True
-        Me.btnAnswer24.Location = New System.Drawing.Point(7, 209)
-        Me.btnAnswer24.Name = "btnAnswer24"
-        Me.btnAnswer24.Size = New System.Drawing.Size(51, 17)
-        Me.btnAnswer24.TabIndex = 3
-        Me.btnAnswer24.TabStop = True
-        Me.btnAnswer24.Text = "Other"
-        Me.btnAnswer24.UseVisualStyleBackColor = True
+        Me.btnAnswer22.AutoSize = True
+        Me.btnAnswer22.Location = New System.Drawing.Point(0, 109)
+        Me.btnAnswer22.Name = "btnAnswer22"
+        Me.btnAnswer22.Size = New System.Drawing.Size(255, 17)
+        Me.btnAnswer22.TabIndex = 1
+        Me.btnAnswer22.TabStop = True
+        Me.btnAnswer22.Text = "scene 11 IVF hopsital results meeting with doctor"
+        Me.btnAnswer22.UseVisualStyleBackColor = True
+        '
+        'BtnAnswer21
+        '
+        Me.BtnAnswer21.AutoSize = True
+        Me.BtnAnswer21.Location = New System.Drawing.Point(7, 57)
+        Me.BtnAnswer21.Name = "BtnAnswer21"
+        Me.BtnAnswer21.Size = New System.Drawing.Size(195, 17)
+        Me.BtnAnswer21.TabIndex = 0
+        Me.BtnAnswer21.TabStop = True
+        Me.BtnAnswer21.Text = "scene 1 intro anord driving in his car"
+        Me.BtnAnswer21.UseVisualStyleBackColor = True
         '
         'btnNext22
         '

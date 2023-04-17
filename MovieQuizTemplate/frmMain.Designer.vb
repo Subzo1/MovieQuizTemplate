@@ -23,7 +23,7 @@ Partial Class frmMain
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtName = New System.Windows.Forms.TextBox()
         Me.TxtPlayerName = New System.Windows.Forms.TextBox()
         Me.btnQuit = New System.Windows.Forms.Button()
         Me.btnStart = New System.Windows.Forms.Button()
@@ -50,12 +50,12 @@ Partial Class frmMain
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Movie Quiz"
         '
-        'TextBox1
+        'txtName
         '
-        Me.TextBox1.Location = New System.Drawing.Point(121, 94)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(210, 20)
-        Me.TextBox1.TabIndex = 7
+        Me.txtName.Location = New System.Drawing.Point(121, 94)
+        Me.txtName.Name = "txtName"
+        Me.txtName.Size = New System.Drawing.Size(210, 20)
+        Me.txtName.TabIndex = 7
         '
         'TxtPlayerName
         '
@@ -145,7 +145,7 @@ Partial Class frmMain
         Me.Controls.Add(Me.btnStart)
         Me.Controls.Add(Me.btnQuit)
         Me.Controls.Add(Me.TxtPlayerName)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtName)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.PictureBox4)
@@ -173,7 +173,7 @@ Partial Class frmMain
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtName As TextBox
     Friend WithEvents TxtPlayerName As TextBox
     Friend WithEvents btnQuit As Button
     Friend WithEvents btnStart As Button

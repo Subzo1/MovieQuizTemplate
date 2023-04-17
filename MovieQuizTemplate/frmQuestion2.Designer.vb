@@ -24,10 +24,10 @@ Partial Class frmQuestion2
     Private Sub InitializeComponent()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.btnAnswer11 = New System.Windows.Forms.RadioButton()
-        Me.btnAnswer12 = New System.Windows.Forms.RadioButton()
-        Me.BtnAnswer13 = New System.Windows.Forms.RadioButton()
         Me.btnAnswer14 = New System.Windows.Forms.RadioButton()
+        Me.BtnAnswer13 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer12 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer11 = New System.Windows.Forms.RadioButton()
         Me.btnNext15 = New System.Windows.Forms.Button()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -58,27 +58,16 @@ Partial Class frmQuestion2
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "GroupBox1"
         '
-        'btnAnswer11
+        'btnAnswer14
         '
-        Me.btnAnswer11.AutoSize = True
-        Me.btnAnswer11.Location = New System.Drawing.Point(7, 65)
-        Me.btnAnswer11.Name = "btnAnswer11"
-        Me.btnAnswer11.Size = New System.Drawing.Size(49, 17)
-        Me.btnAnswer11.TabIndex = 0
-        Me.btnAnswer11.TabStop = True
-        Me.btnAnswer11.Text = "1977"
-        Me.btnAnswer11.UseVisualStyleBackColor = True
-        '
-        'btnAnswer12
-        '
-        Me.btnAnswer12.AutoSize = True
-        Me.btnAnswer12.Location = New System.Drawing.Point(7, 116)
-        Me.btnAnswer12.Name = "btnAnswer12"
-        Me.btnAnswer12.Size = New System.Drawing.Size(49, 17)
-        Me.btnAnswer12.TabIndex = 1
-        Me.btnAnswer12.TabStop = True
-        Me.btnAnswer12.Text = "1988"
-        Me.btnAnswer12.UseVisualStyleBackColor = True
+        Me.btnAnswer14.AutoSize = True
+        Me.btnAnswer14.Location = New System.Drawing.Point(7, 243)
+        Me.btnAnswer14.Name = "btnAnswer14"
+        Me.btnAnswer14.Size = New System.Drawing.Size(49, 17)
+        Me.btnAnswer14.TabIndex = 3
+        Me.btnAnswer14.TabStop = True
+        Me.btnAnswer14.Text = "2004"
+        Me.btnAnswer14.UseVisualStyleBackColor = True
         '
         'BtnAnswer13
         '
@@ -91,16 +80,27 @@ Partial Class frmQuestion2
         Me.BtnAnswer13.Text = "1992"
         Me.BtnAnswer13.UseVisualStyleBackColor = True
         '
-        'btnAnswer14
+        'btnAnswer12
         '
-        Me.btnAnswer14.AutoSize = True
-        Me.btnAnswer14.Location = New System.Drawing.Point(7, 243)
-        Me.btnAnswer14.Name = "btnAnswer14"
-        Me.btnAnswer14.Size = New System.Drawing.Size(49, 17)
-        Me.btnAnswer14.TabIndex = 3
-        Me.btnAnswer14.TabStop = True
-        Me.btnAnswer14.Text = "2004"
-        Me.btnAnswer14.UseVisualStyleBackColor = True
+        Me.btnAnswer12.AutoSize = True
+        Me.btnAnswer12.Location = New System.Drawing.Point(7, 116)
+        Me.btnAnswer12.Name = "btnAnswer12"
+        Me.btnAnswer12.Size = New System.Drawing.Size(49, 17)
+        Me.btnAnswer12.TabIndex = 1
+        Me.btnAnswer12.TabStop = True
+        Me.btnAnswer12.Text = "1988"
+        Me.btnAnswer12.UseVisualStyleBackColor = True
+        '
+        'btnAnswer11
+        '
+        Me.btnAnswer11.AutoSize = True
+        Me.btnAnswer11.Location = New System.Drawing.Point(7, 65)
+        Me.btnAnswer11.Name = "btnAnswer11"
+        Me.btnAnswer11.Size = New System.Drawing.Size(49, 17)
+        Me.btnAnswer11.TabIndex = 0
+        Me.btnAnswer11.TabStop = True
+        Me.btnAnswer11.Text = "1977"
+        Me.btnAnswer11.UseVisualStyleBackColor = True
         '
         'btnNext15
         '
