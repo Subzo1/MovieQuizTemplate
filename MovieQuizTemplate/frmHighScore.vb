@@ -12,16 +12,20 @@
             IstHighScore.Items.Add(playerName & vbTab & vbTab & playerScore)
 
 
-            Application.Exit()
+
 
         End If
     End Sub
 
     Private Sub BtnQuit_Click(sender As Object, e As EventArgs) Handles BtnQuit.Click
-
+        Application.Exit()
     End Sub
 
     Private Sub IstHighScore_SelectedIndexChanged(sender As Object, e As EventArgs) Handles IstHighScore.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub frmHighScore_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
